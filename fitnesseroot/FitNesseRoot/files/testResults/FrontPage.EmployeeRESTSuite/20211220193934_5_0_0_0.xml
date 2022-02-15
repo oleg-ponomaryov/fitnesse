@@ -1,0 +1,1156 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20211030</FitNesseVersion>
+  <rootPath>FrontPage.EmployeeRESTSuite</rootPath>
+  <pageHistoryReference>
+    <name>FrontPage.EmployeeRESTSuite.AfirstCheckNoJohnDoe</name>
+    <date>2021-12-20T19:39:34-07:00</date>
+    <pageHistoryLink>FrontPage.EmployeeRESTSuite.AfirstCheckNoJohnDoe?pageHistory&amp;resultDate=20211220193934</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>429</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.EmployeeRESTSuite.CreateOneEmployeeJohnDoe</name>
+    <date>2021-12-20T19:39:34-07:00</date>
+    <pageHistoryLink>FrontPage.EmployeeRESTSuite.CreateOneEmployeeJohnDoe?pageHistory&amp;resultDate=20211220193934</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>29</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.EmployeeRESTSuite.GETALLEmployeesWithJohnDoe</name>
+    <date>2021-12-20T19:39:34-07:00</date>
+    <pageHistoryLink>FrontPage.EmployeeRESTSuite.GETALLEmployeesWithJohnDoe?pageHistory&amp;resultDate=20211220193934</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>14</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.EmployeeRESTSuite.ModifyEmployeeJohnDoe</name>
+    <date>2021-12-20T19:39:34-07:00</date>
+    <pageHistoryLink>FrontPage.EmployeeRESTSuite.ModifyEmployeeJohnDoe?pageHistory&amp;resultDate=20211220193934</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>40</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.EmployeeRESTSuite.TearDown_</name>
+    <date>2021-12-20T19:39:34-07:00</date>
+    <pageHistoryLink>FrontPage.EmployeeRESTSuite.TearDown_?pageHistory&amp;resultDate=20211220193934</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>11</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmlparser-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-api-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/velocity-engine-core-2.3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/junit-3.8.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-httpclient-3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-text-1.9.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/rhino-1.7R3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestFixture-4.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-logging-1.0.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/log4j-1.2.17.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/json-20210307.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-codec-1.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/jettison-1.3.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestClient-2.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xstream-1.4.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/diffutils-1.3.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/stax-api-1.0.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xmlpull-1.1.3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xpp3_min-1.1.4c.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-lang3-3.12.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmllexer-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>19:39:34,311 DEBUG [DefaultHttpParams] - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+
+19:39:34,312 DEBUG [DefaultHttpParams] - Set parameter http.protocol.version = HTTP/1.1
+
+19:39:34,313 DEBUG [DefaultHttpParams] - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+
+19:39:34,313 DEBUG [DefaultHttpParams] - Set parameter http.protocol.cookie-policy = default
+
+19:39:34,313 DEBUG [DefaultHttpParams] - Set parameter http.protocol.element-charset = US-ASCII
+
+19:39:34,313 DEBUG [DefaultHttpParams] - Set parameter http.protocol.content-charset = ISO-8859-1
+
+19:39:34,313 DEBUG [DefaultHttpParams] - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@f5958c9
+
+19:39:34,313 DEBUG [DefaultHttpParams] - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+
+19:39:34,314 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,314 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,314 DEBUG [HttpClient] - Java version: 11.0.12
+
+19:39:34,315 DEBUG [HttpClient] - Java vendor: Homebrew
+
+19:39:34,315 DEBUG [HttpClient] - Java class path: /Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmlparser-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-api-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/velocity-engine-core-2.3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/junit-3.8.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-httpclient-3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-text-1.9.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/rhino-1.7R3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestFixture-4.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-logging-1.0.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/log4j-1.2.17.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/json-20210307.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-codec-1.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/jettison-1.3.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestClient-2.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xstream-1.4.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/diffutils-1.3.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/stax-api-1.0.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xmlpull-1.1.3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xpp3_min-1.1.4c.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-lang3-3.12.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmllexer-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar
+
+19:39:34,315 DEBUG [HttpClient] - Operating system name: Mac OS X
+
+19:39:34,315 DEBUG [HttpClient] - Operating system architecture: x86_64
+
+19:39:34,315 DEBUG [HttpClient] - Operating system version: 11.6
+
+19:39:34,338 DEBUG [HttpClient] - SUN 11.0: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; PKCS12, JKS &amp; DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+
+19:39:34,338 DEBUG [HttpClient] - SunRsaSign 11.0: Sun RSA signature provider
+
+19:39:34,338 DEBUG [HttpClient] - SunEC 11.0: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+
+19:39:34,338 DEBUG [HttpClient] - SunJSSE 11.0: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2/TLSv1.3/DTLSv1.0/DTLSv1.2)
+
+19:39:34,338 DEBUG [HttpClient] - SunJCE 11.0: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC, ChaCha20)
+
+19:39:34,338 DEBUG [HttpClient] - SunJGSS 11.0: Sun (Kerberos v5, SPNEGO)
+
+19:39:34,338 DEBUG [HttpClient] - SunSASL 11.0: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, CRAM-MD5, NTLM)
+
+19:39:34,338 DEBUG [HttpClient] - XMLDSig 11.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+
+19:39:34,338 DEBUG [HttpClient] - SunPCSC 11.0: Sun PC/SC provider
+
+19:39:34,338 DEBUG [HttpClient] - JdkLDAP 11.0: JdkLDAP Provider (implements LDAP CertStore)
+
+19:39:34,338 DEBUG [HttpClient] - JdkSASL 11.0: JDK SASL provider(implements client and server mechanisms for GSSAPI)
+
+19:39:34,338 DEBUG [HttpClient] - Apple 11.0: Apple Provider
+
+19:39:34,339 DEBUG [HttpClient] - SunPKCS11 11.0: Unconfigured and unusable PKCS11 provider
+
+19:39:34,355 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+19:39:34,355 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+19:39:34,360 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+19:39:34,360 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+19:39:34,360 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+19:39:34,372 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+19:39:34,372 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+19:39:34,372 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+19:39:34,372 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+19:39:34,372 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,373 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,373 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,373 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+19:39:34,373 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,373 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,373 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+19:39:34,373 DEBUG [HttpMethodBase] - Adding Host request header
+
+19:39:34,373 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+19:39:34,379 DEBUG [HttpState] - enter HttpState.getCookies()
+
+19:39:34,379 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+19:39:34,379 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,379 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+19:39:34,380 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+19:39:34,380 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+19:39:34,380 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+19:39:34,381 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,381 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,383 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+19:39:34,383 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,383 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,383 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,384 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,384 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,384 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,384 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,384 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,384 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,384 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,387 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,387 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+19:39:34,387 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+19:39:34,387 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+19:39:34,388 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+19:39:34,388 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,388 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+19:39:34,388 DEBUG [HeaderElement] - enter HeaderElement.parseElements(String)
+
+19:39:34,388 DEBUG [HeaderElement] - enter HeaderElement.parseElements(char[])
+
+19:39:34,389 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable(int)
+
+19:39:34,390 WARN  [HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+19:39:34,390 DEBUG [HttpMethodBase] - Buffering response body
+
+19:39:34,390 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,391 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,391 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,391 DEBUG [HttpMethodBase] - Resorting to protocol version default close connection policy
+
+19:39:34,391 DEBUG [HttpMethodBase] - Should NOT close connection, using HTTP/1.1
+
+19:39:34,391 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+19:39:34,391 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+19:39:34,391 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+19:39:34,501 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,501 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,504 DEBUG [HttpMethodBase] - HttpMethodBase.addRequestHeader(Header)
+
+19:39:34,504 DEBUG [PostMethod] - enter PostMethod.clearRequestBody()
+
+19:39:34,504 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.clearRequestBody()
+
+19:39:34,504 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+19:39:34,504 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+19:39:34,504 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+19:39:34,504 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+19:39:34,504 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+19:39:34,505 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+19:39:34,505 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+19:39:34,505 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+19:39:34,505 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+19:39:34,505 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,505 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,505 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,505 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+19:39:34,505 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,505 DEBUG [ExpectContinueMethod] - enter ExpectContinueMethod.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,505 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,505 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,505 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+19:39:34,506 DEBUG [HttpMethodBase] - Adding Host request header
+
+19:39:34,506 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+19:39:34,506 DEBUG [HttpState] - enter HttpState.getCookies()
+
+19:39:34,506 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+19:39:34,506 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+19:39:34,506 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.addContentLengthRequestHeader(HttpState, HttpConnection)
+
+19:39:34,506 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.getRequestContentLength()
+
+19:39:34,506 DEBUG [PostMethod] - enter PostMethod.hasRequestContent()
+
+19:39:34,506 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.hasRequestContent()
+
+19:39:34,506 DEBUG [HttpMethodBase] - HttpMethodBase.addRequestHeader(Header)
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+19:39:34,506 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,507 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,507 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.writeRequestBody(HttpState, HttpConnection)
+
+19:39:34,507 DEBUG [PostMethod] - enter PostMethod.hasRequestContent()
+
+19:39:34,507 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.hasRequestContent()
+
+19:39:34,507 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.getRequestContentLength()
+
+19:39:34,507 DEBUG [PostMethod] - enter PostMethod.hasRequestContent()
+
+19:39:34,507 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.hasRequestContent()
+
+19:39:34,507 DEBUG [HttpConnection] - enter HttpConnection.getRequestOutputStream()
+
+19:39:34,507 DEBUG [EntityEnclosingMethod] - Request body sent
+
+19:39:34,507 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+19:39:34,507 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+19:39:34,507 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+19:39:34,507 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+19:39:34,507 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,507 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,510 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+19:39:34,510 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,510 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,510 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,510 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,511 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,511 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+19:39:34,511 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+19:39:34,511 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+19:39:34,511 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+19:39:34,511 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,512 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+19:39:34,512 DEBUG [HeaderElement] - enter HeaderElement.parseElements(String)
+
+19:39:34,512 DEBUG [HeaderElement] - enter HeaderElement.parseElements(char[])
+
+19:39:34,512 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable(int)
+
+19:39:34,512 WARN  [HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+19:39:34,512 DEBUG [HttpMethodBase] - Buffering response body
+
+19:39:34,512 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,512 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,512 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,512 DEBUG [HttpMethodBase] - Resorting to protocol version default close connection policy
+
+19:39:34,512 DEBUG [HttpMethodBase] - Should NOT close connection, using HTTP/1.1
+
+19:39:34,512 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+19:39:34,512 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+19:39:34,512 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+19:39:34,533 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,534 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,534 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+19:39:34,534 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+19:39:34,534 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+19:39:34,534 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+19:39:34,534 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+19:39:34,535 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+19:39:34,535 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+19:39:34,535 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+19:39:34,535 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+19:39:34,535 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,535 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,535 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,535 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+19:39:34,535 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,535 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,535 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+19:39:34,535 DEBUG [HttpMethodBase] - Adding Host request header
+
+19:39:34,535 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+19:39:34,536 DEBUG [HttpState] - enter HttpState.getCookies()
+
+19:39:34,536 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+19:39:34,536 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+19:39:34,536 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+19:39:34,536 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+19:39:34,536 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+19:39:34,536 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,536 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,540 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+19:39:34,540 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,540 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,540 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,540 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,540 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,540 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,540 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,540 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,540 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,541 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,541 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+19:39:34,541 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+19:39:34,541 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+19:39:34,541 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+19:39:34,541 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,541 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+19:39:34,541 DEBUG [HeaderElement] - enter HeaderElement.parseElements(String)
+
+19:39:34,541 DEBUG [HeaderElement] - enter HeaderElement.parseElements(char[])
+
+19:39:34,541 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable(int)
+
+19:39:34,541 WARN  [HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+19:39:34,542 DEBUG [HttpMethodBase] - Buffering response body
+
+19:39:34,542 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,542 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,542 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,542 DEBUG [HttpMethodBase] - Resorting to protocol version default close connection policy
+
+19:39:34,542 DEBUG [HttpMethodBase] - Should NOT close connection, using HTTP/1.1
+
+19:39:34,542 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+19:39:34,542 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+19:39:34,542 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+19:39:34,551 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,551 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,551 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+19:39:34,551 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+19:39:34,551 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+19:39:34,551 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+19:39:34,552 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+19:39:34,552 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+19:39:34,552 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+19:39:34,552 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+19:39:34,552 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+19:39:34,552 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,552 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,552 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,552 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+19:39:34,552 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,552 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,552 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+19:39:34,553 DEBUG [HttpMethodBase] - Adding Host request header
+
+19:39:34,553 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+19:39:34,553 DEBUG [HttpState] - enter HttpState.getCookies()
+
+19:39:34,553 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+19:39:34,553 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+19:39:34,553 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,553 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,553 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,553 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,553 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,553 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,554 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+19:39:34,554 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,554 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,554 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+19:39:34,554 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+19:39:34,554 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+19:39:34,554 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+19:39:34,554 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,554 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,558 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+19:39:34,558 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,558 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,558 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,559 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+19:39:34,559 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+19:39:34,559 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+19:39:34,559 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+19:39:34,559 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,559 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+19:39:34,559 DEBUG [HeaderElement] - enter HeaderElement.parseElements(String)
+
+19:39:34,559 DEBUG [HeaderElement] - enter HeaderElement.parseElements(char[])
+
+19:39:34,559 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable(int)
+
+19:39:34,559 WARN  [HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+19:39:34,559 DEBUG [HttpMethodBase] - Buffering response body
+
+19:39:34,559 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,559 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,559 DEBUG [HttpMethodBase] - Resorting to protocol version default close connection policy
+
+19:39:34,559 DEBUG [HttpMethodBase] - Should NOT close connection, using HTTP/1.1
+
+19:39:34,559 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+19:39:34,559 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+19:39:34,559 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+19:39:34,572 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,572 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,573 DEBUG [HttpMethodBase] - HttpMethodBase.addRequestHeader(Header)
+
+19:39:34,573 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.clearRequestBody()
+
+19:39:34,573 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+19:39:34,573 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+19:39:34,573 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+19:39:34,573 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+19:39:34,573 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+19:39:34,574 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,574 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,574 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+19:39:34,574 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [ExpectContinueMethod] - enter ExpectContinueMethod.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [HttpMethodBase] - Adding Host request header
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [HttpState] - enter HttpState.getCookies()
+
+19:39:34,574 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+19:39:34,574 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.addContentLengthRequestHeader(HttpState, HttpConnection)
+
+19:39:34,574 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.getRequestContentLength()
+
+19:39:34,574 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.hasRequestContent()
+
+19:39:34,575 DEBUG [HttpMethodBase] - HttpMethodBase.addRequestHeader(Header)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,575 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.writeRequestBody(HttpState, HttpConnection)
+
+19:39:34,575 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.hasRequestContent()
+
+19:39:34,575 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.getRequestContentLength()
+
+19:39:34,575 DEBUG [EntityEnclosingMethod] - enter EntityEnclosingMethod.hasRequestContent()
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.getRequestOutputStream()
+
+19:39:34,575 DEBUG [EntityEnclosingMethod] - Request body sent
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+19:39:34,575 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+19:39:34,575 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+19:39:34,575 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+19:39:34,575 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,575 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,580 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+19:39:34,580 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,580 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,580 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,581 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,581 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,581 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,581 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,581 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,581 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,581 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+19:39:34,581 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+19:39:34,581 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+19:39:34,581 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+19:39:34,581 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,581 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+19:39:34,581 DEBUG [HeaderElement] - enter HeaderElement.parseElements(String)
+
+19:39:34,581 DEBUG [HeaderElement] - enter HeaderElement.parseElements(char[])
+
+19:39:34,581 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable(int)
+
+19:39:34,581 WARN  [HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+19:39:34,581 DEBUG [HttpMethodBase] - Buffering response body
+
+19:39:34,581 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,581 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,581 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,581 DEBUG [HttpMethodBase] - Resorting to protocol version default close connection policy
+
+19:39:34,581 DEBUG [HttpMethodBase] - Should NOT close connection, using HTTP/1.1
+
+19:39:34,581 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+19:39:34,581 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+19:39:34,581 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+19:39:34,593 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,593 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+19:39:34,594 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+19:39:34,594 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+19:39:34,594 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+19:39:34,594 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+19:39:34,594 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+19:39:34,594 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+19:39:34,594 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+19:39:34,594 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+19:39:34,594 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+19:39:34,594 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,594 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,594 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,594 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+19:39:34,594 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,594 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+19:39:34,594 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+19:39:34,595 DEBUG [HttpMethodBase] - Adding Host request header
+
+19:39:34,595 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+19:39:34,595 DEBUG [HttpState] - enter HttpState.getCookies()
+
+19:39:34,595 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+19:39:34,595 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+19:39:34,595 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+19:39:34,595 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+19:39:34,595 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+19:39:34,595 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,595 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+19:39:34,599 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,599 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+19:39:34,599 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+19:39:34,599 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+19:39:34,599 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+19:39:34,599 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+19:39:34,599 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+19:39:34,600 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+19:39:34,600 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+19:39:34,600 DEBUG [HttpMethodBase] - Buffering response body
+
+19:39:34,600 DEBUG [HttpMethodBase] - Resorting to protocol version default close connection policy
+
+19:39:34,600 DEBUG [HttpMethodBase] - Should NOT close connection, using HTTP/1.1
+
+19:39:34,600 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+19:39:34,600 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+19:39:34,600 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+</stdOut>
+    <stdErr>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+Dec 20, 2021 7:39:34 PM smartrics.rest.fitnesse.fixture.RestFixture &lt;clinit&gt;
+INFO: ############ Detected FitNesse version: v20211030 ###########
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>5</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>901</totalRunTimeInMillis>
+</suiteResults>
+

@@ -1,0 +1,6 @@
+Page	Partition	Test System	Order
+SuitePage.TestPage1	2	fit	99
+SuitePage.TestPage2	2	fit	0
+SuitePage.TestPage3	0	fit	0
+SuitePage.TestPage4	1	fit	0
+SuitePage.TestPage5	1	fit	1

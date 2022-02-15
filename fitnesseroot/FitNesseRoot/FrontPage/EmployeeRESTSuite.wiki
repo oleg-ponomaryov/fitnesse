@@ -1,0 +1,5 @@
+[[!-Get All Employees (John Doe is NOT present)-!][.FrontPage.EmployeeRESTSuite.AssertNoJohnDoe]]
+[[!-Create One Employee John Doe-!][.FrontPage.EmployeeRESTSuite.CreateOneEmployeeJohnDoe]]
+[[!-Get All Employees (John Doe present)-!][.FrontPage.EmployeeRESTSuite.GETALLEmployeesWithJohnDoe]]
+[[!-Modify John Doe's attribute -!][.FrontPage.EmployeeRESTSuite.ModifyEmployeeJohnDoe]]
+[[!-Delete All Employees (tear down)-!][.FrontPage.EmployeeRESTSuite.TearDown_]]

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20211030</FitNesseVersion>
+  <rootPath>FrontPage.SampleRESTSuite.GETTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2021-11-30T21:20:19-07:00</date>
+    <runTimeInMillis>2</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;smartrics.rest.fitnesse.fixture&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;Table: Rest Fixture&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: TableRestFixture.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://localhost:8088/"&gt;http://localhost:8088/&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;/super-hero&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+		&lt;td&gt;Content-Type : application/json; charset=utf-8&lt;/td&gt;
+		&lt;td&gt;jsonbody.length == 10&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>GETTest</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp /Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar fit.FitServer MACBOOKPRO-C02G884VMD6R 51269 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>494</totalRunTimeInMillis>
+</testResults>
+

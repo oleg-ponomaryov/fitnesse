@@ -1,0 +1,12 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path target/dependencies/*.jar
+
+
+| Import |
+| smartrics.rest.fitnesse.fixture |
+
+|Table: Rest Fixture | http://localhost:8088 |
+| GET | /employees | 200 | Content-Type : application/json ||

@@ -1,0 +1,23 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path target/dependencies/*.jar
+
+
+| Import |
+| smartrics.rest.fitnesse.fixture |
+
+|Table: Rest Fixture | http://localhost:8088 |
+| GET | /employees/search/Doe | 200 | Content-Type : application/json ||
+|let|id|js|JSON.parse(response.body)['id'] ||
+
+
+|Table: Rest Fixture | http://localhost:8088 |
+|setHeader                                        |!-Content-Type : application/json-!|
+|setBody                                                                              |!-
+    {
+"age" : 38
+}
+-!|
+| PUT |/employees/$id | 200 |  | jsonbody.age==39|

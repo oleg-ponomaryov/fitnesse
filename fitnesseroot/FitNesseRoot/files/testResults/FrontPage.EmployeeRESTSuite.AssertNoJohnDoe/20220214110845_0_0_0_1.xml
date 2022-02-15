@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20211030</FitNesseVersion>
+  <rootPath>FrontPage.EmployeeRESTSuite.AssertNoJohnDoe</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <date>2022-02-14T11:08:45-07:00</date>
+    <runTimeInMillis>4490</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/dependencies/*.jar&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;smartrics.rest.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table: Rest Fixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://localhost:8088"&gt;http://localhost:8088&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;GET &lt;span class="error"&gt;&lt;div&gt;Execution of Get caused exception 'Http call failed for IO failure'&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;/employees&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+		&lt;td&gt;Content-Type : application/json&lt;/td&gt;
+		&lt;td&gt; /* javascript */
+var found = true; 
+for(var x in jsonbody){
+    if (jsonbody[x].firstName=="John" &amp;amp;&amp;amp; jsonbody[x].lastName=="Doe") {
+        found = false;
+    } 
+}
+found;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>AssertNoJohnDoe</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='smartrics.rest.fitnesse.fixture'}</instruction>
+        <slimResult>pass(smartrics.rest.fitnesse.fixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>smartrics.rest.fitnesse.fixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='tableTable_1_0', instruction='make', instanceName='tableTable_1', className='RestFixture', args=[&lt;a href="http://localhost:8088"&gt;http://localhost:8088&lt;/a&gt;]}</instruction>
+        <slimResult>pass(Table: Rest Fixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>tableTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Table: Rest Fixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='tableTable_1_1', instruction='call', instanceName='tableTable_1', methodName='doTable', args=[[[GET, /employees, 200, Content-Type : application/json,  /* javascript */
+var found = true; 
+for(var x in jsonbody){
+    if (jsonbody[x].firstName=="John" &amp;&amp; jsonbody[x].lastName=="Doe") {
+        found = false;
+    } 
+}
+found;]]]}</instruction>
+        <slimResult>error()</slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>tableTable_1_1</instructionId>
+          <type>TableTableExpectation</type>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem></testSystem>
+    <command></command>
+    <exitCode>0</exitCode>
+    <stdOut>11:08:45,673 DEBUG [DefaultHttpParams] - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+
+11:08:45,675 DEBUG [DefaultHttpParams] - Set parameter http.protocol.version = HTTP/1.1
+
+11:08:45,676 DEBUG [DefaultHttpParams] - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+
+11:08:45,676 DEBUG [DefaultHttpParams] - Set parameter http.protocol.cookie-policy = default
+
+11:08:45,677 DEBUG [DefaultHttpParams] - Set parameter http.protocol.element-charset = US-ASCII
+
+11:08:45,677 DEBUG [DefaultHttpParams] - Set parameter http.protocol.content-charset = ISO-8859-1
+
+11:08:45,678 DEBUG [DefaultHttpParams] - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@f5958c9
+
+11:08:45,678 DEBUG [DefaultHttpParams] - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+
+11:08:45,678 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+11:08:45,678 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+11:08:45,679 DEBUG [HttpClient] - Java version: 11.0.12
+
+11:08:45,679 DEBUG [HttpClient] - Java vendor: Homebrew
+
+11:08:45,679 DEBUG [HttpClient] - Java class path: /Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmlparser-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-api-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/velocity-engine-core-2.3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/junit-3.8.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-httpclient-3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-text-1.9.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/rhino-1.7R3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestFixture-4.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-logging-1.0.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/log4j-1.2.17.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/json-20210307.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-codec-1.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/jettison-1.3.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestClient-2.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xstream-1.4.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/diffutils-1.3.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/stax-api-1.0.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xmlpull-1.1.3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xpp3_min-1.1.4c.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-lang3-3.12.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmllexer-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar
+
+11:08:45,679 DEBUG [HttpClient] - Operating system name: Mac OS X
+
+11:08:45,679 DEBUG [HttpClient] - Operating system architecture: x86_64
+
+11:08:45,679 DEBUG [HttpClient] - Operating system version: 11.6
+
+11:08:45,708 DEBUG [HttpClient] - SUN 11.0: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; PKCS12, JKS &amp; DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+
+11:08:45,709 DEBUG [HttpClient] - SunRsaSign 11.0: Sun RSA signature provider
+
+11:08:45,709 DEBUG [HttpClient] - SunEC 11.0: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+
+11:08:45,709 DEBUG [HttpClient] - SunJSSE 11.0: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2/TLSv1.3/DTLSv1.0/DTLSv1.2)
+
+11:08:45,709 DEBUG [HttpClient] - SunJCE 11.0: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC, ChaCha20)
+
+11:08:45,709 DEBUG [HttpClient] - SunJGSS 11.0: Sun (Kerberos v5, SPNEGO)
+
+11:08:45,709 DEBUG [HttpClient] - SunSASL 11.0: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, CRAM-MD5, NTLM)
+
+11:08:45,709 DEBUG [HttpClient] - XMLDSig 11.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+
+11:08:45,709 DEBUG [HttpClient] - SunPCSC 11.0: Sun PC/SC provider
+
+11:08:45,709 DEBUG [HttpClient] - JdkLDAP 11.0: JdkLDAP Provider (implements LDAP CertStore)
+
+11:08:45,709 DEBUG [HttpClient] - JdkSASL 11.0: JDK SASL provider(implements client and server mechanisms for GSSAPI)
+
+11:08:45,709 DEBUG [HttpClient] - Apple 11.0: Apple Provider
+
+11:08:45,709 DEBUG [HttpClient] - SunPKCS11 11.0: Unconfigured and unusable PKCS11 provider
+
+11:08:45,734 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+11:08:45,734 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+11:08:45,741 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+11:08:45,741 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+11:08:45,741 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+11:08:46,755 DEBUG [HttpConnection] - enter HttpConnection.closeSockedAndStreams()
+
+11:08:46,755 DEBUG [HttpMethodDirector] - Closing the connection.
+
+11:08:46,755 DEBUG [HttpConnection] - enter HttpConnection.close()
+
+11:08:46,756 DEBUG [HttpConnection] - enter HttpConnection.closeSockedAndStreams()
+
+11:08:46,756 INFO  [HttpMethodDirector] - I/O exception (java.net.ConnectException) caught when processing request: Connection refused (Connection refused)
+
+11:08:46,756 DEBUG [HttpMethodDirector] - Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:454)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:306)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at smartrics.rest.client.RestClientImpl.execute(RestClientImpl.java:139)
+	at smartrics.rest.client.RestClientImpl.execute(RestClientImpl.java:99)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1151)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1093)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1081)
+	at smartrics.rest.fitnesse.fixture.RestFixture.GET(RestFixture.java:760)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at smartrics.rest.fitnesse.fixture.RestFixture.processRow(RestFixture.java:1021)
+	at smartrics.rest.fitnesse.fixture.RestFixture.processSlimRow(RestFixture.java:1367)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doTable(RestFixture.java:432)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112)
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30)
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47)
+	at fitnesse.slim.SlimService.handle(SlimService.java:169)
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177)
+	at fitnesse.slim.SlimService.accept(SlimService.java:139)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92)
+	at fitnesse.slim.SlimService.main(SlimService.java:57)
+
+11:08:46,758 INFO  [HttpMethodDirector] - Retrying request
+
+11:08:46,758 DEBUG [HttpMethodDirector] - Attempt number 2 to process request
+
+11:08:46,758 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+11:08:46,759 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+11:08:47,760 DEBUG [HttpConnection] - enter HttpConnection.closeSockedAndStreams()
+
+11:08:47,760 DEBUG [HttpMethodDirector] - Closing the connection.
+
+11:08:47,760 DEBUG [HttpConnection] - enter HttpConnection.close()
+
+11:08:47,760 DEBUG [HttpConnection] - enter HttpConnection.closeSockedAndStreams()
+
+11:08:47,760 INFO  [HttpMethodDirector] - I/O exception (java.net.ConnectException) caught when processing request: Connection refused (Connection refused)
+
+11:08:47,761 DEBUG [HttpMethodDirector] - Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:454)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:306)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at smartrics.rest.client.RestClientImpl.execute(RestClientImpl.java:139)
+	at smartrics.rest.client.RestClientImpl.execute(RestClientImpl.java:99)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1151)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1093)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1081)
+	at smartrics.rest.fitnesse.fixture.RestFixture.GET(RestFixture.java:760)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at smartrics.rest.fitnesse.fixture.RestFixture.processRow(RestFixture.java:1021)
+	at smartrics.rest.fitnesse.fixture.RestFixture.processSlimRow(RestFixture.java:1367)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doTable(RestFixture.java:432)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112)
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30)
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47)
+	at fitnesse.slim.SlimService.handle(SlimService.java:169)
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177)
+	at fitnesse.slim.SlimService.accept(SlimService.java:139)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92)
+	at fitnesse.slim.SlimService.main(SlimService.java:57)
+
+11:08:47,762 INFO  [HttpMethodDirector] - Retrying request
+
+11:08:47,762 DEBUG [HttpMethodDirector] - Attempt number 3 to process request
+
+11:08:47,762 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+11:08:47,762 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+11:08:48,763 DEBUG [HttpConnection] - enter HttpConnection.closeSockedAndStreams()
+
+11:08:48,763 DEBUG [HttpMethodDirector] - Closing the connection.
+
+11:08:48,763 DEBUG [HttpConnection] - enter HttpConnection.close()
+
+11:08:48,763 DEBUG [HttpConnection] - enter HttpConnection.closeSockedAndStreams()
+
+11:08:48,763 INFO  [HttpMethodDirector] - I/O exception (java.net.ConnectException) caught when processing request: Connection refused (Connection refused)
+
+11:08:48,763 DEBUG [HttpMethodDirector] - Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:454)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:306)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at smartrics.rest.client.RestClientImpl.execute(RestClientImpl.java:139)
+	at smartrics.rest.client.RestClientImpl.execute(RestClientImpl.java:99)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1151)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1093)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1081)
+	at smartrics.rest.fitnesse.fixture.RestFixture.GET(RestFixture.java:760)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at smartrics.rest.fitnesse.fixture.RestFixture.processRow(RestFixture.java:1021)
+	at smartrics.rest.fitnesse.fixture.RestFixture.processSlimRow(RestFixture.java:1367)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doTable(RestFixture.java:432)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112)
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30)
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47)
+	at fitnesse.slim.SlimService.handle(SlimService.java:169)
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177)
+	at fitnesse.slim.SlimService.accept(SlimService.java:139)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92)
+	at fitnesse.slim.SlimService.main(SlimService.java:57)
+
+11:08:48,764 INFO  [HttpMethodDirector] - Retrying request
+
+11:08:48,764 DEBUG [HttpMethodDirector] - Attempt number 4 to process request
+
+11:08:48,764 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+11:08:48,764 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+11:08:49,765 DEBUG [HttpConnection] - enter HttpConnection.closeSockedAndStreams()
+
+11:08:49,766 DEBUG [HttpMethodDirector] - Closing the connection.
+
+11:08:49,766 DEBUG [HttpConnection] - enter HttpConnection.close()
+
+11:08:49,766 DEBUG [HttpConnection] - enter HttpConnection.closeSockedAndStreams()
+
+11:08:49,766 DEBUG [HttpMethodDirector] - Method retry handler returned false. Automatic recovery will not be attempted
+
+11:08:49,766 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+11:08:49,766 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+</stdOut>
+    <stdErr>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+Feb 14, 2022 11:08:45 AM smartrics.rest.fitnesse.fixture.RestFixture &lt;clinit&gt;
+INFO: ############ Detected FitNesse version: v20211030 ###########
+
+Feb 14, 2022 11:08:49 AM smartrics.rest.fitnesse.fixture.RestFixture doMethod
+SEVERE: Exception occurred when processing method=Get
+java.lang.IllegalStateException: Http call failed for IO failure
+	at smartrics.rest.client.RestClientImpl.execute(RestClientImpl.java:159)
+	at smartrics.rest.client.RestClientImpl.execute(RestClientImpl.java:99)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1151)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1093)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:1081)
+	at smartrics.rest.fitnesse.fixture.RestFixture.GET(RestFixture.java:760)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at smartrics.rest.fitnesse.fixture.RestFixture.processRow(RestFixture.java:1021)
+	at smartrics.rest.fitnesse.fixture.RestFixture.processSlimRow(RestFixture.java:1367)
+	at smartrics.rest.fitnesse.fixture.RestFixture.doTable(RestFixture.java:432)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290)
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112)
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30)
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47)
+	at fitnesse.slim.SlimService.handle(SlimService.java:169)
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177)
+	at fitnesse.slim.SlimService.accept(SlimService.java:139)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92)
+	at fitnesse.slim.SlimService.main(SlimService.java:57)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:454)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:306)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at smartrics.rest.client.RestClientImpl.execute(RestClientImpl.java:139)
+	... 38 more
+
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>4490</totalRunTimeInMillis>
+</testResults>
+

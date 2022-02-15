@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20211030</FitNesseVersion>
+  <rootPath>FrontPage.StudentsRESTSuite.GETTest</rootPath>
+  <result>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2021-11-30T21:36:04-07:00</date>
+    <runTimeInMillis>389</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/dependencies/*.jar&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;smartrics.rest.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table: Rest Fixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://localhost:8088"&gt;http://localhost:8088&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;&lt;a href='http://localhost:8088/student-jpa'&gt;/student-jpa&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;200&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/json&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;Access-Control-Allow-Origin&amp;nbsp;:&amp;nbsp;*&lt;br/&gt;Access-Control-Allow-Methods&amp;nbsp;:&amp;nbsp;POST,&amp;nbsp;GET,&amp;nbsp;PUT,&amp;nbsp;OPTIONS,&amp;nbsp;DELETE,&amp;nbsp;PATCH&lt;br/&gt;Access-Control-Max-Age&amp;nbsp;:&amp;nbsp;3600&lt;br/&gt;Access-Control-Allow-Headers&amp;nbsp;:&amp;nbsp;Origin,&amp;nbsp;Content-Type,&amp;nbsp;Accept&lt;br/&gt;Access-Control-Expose-Headers&amp;nbsp;:&amp;nbsp;Location&lt;br/&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/json&lt;br/&gt;Transfer-Encoding&amp;nbsp;:&amp;nbsp;chunked&lt;br/&gt;Date&amp;nbsp;:&amp;nbsp;Wed,&amp;nbsp;01&amp;nbsp;Dec&amp;nbsp;2021&amp;nbsp;04:36:04&amp;nbsp;GMT&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;jsonbody.length&amp;nbsp;==&amp;nbsp;10&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;[{"id":1,"rollNo":1,"firstName":"Binay","lastName":"Gurung","marks":300.0},{"id":2,"rollNo":2,"firstName":"Rahul","lastName":"Ghadage","marks":950.0},{"id":3,"rollNo":3,"firstName":"Sunny","lastName":"Deol","marks":500.0},{"id":4,"rollNo":4,"firstName":"Salman","lastName":"Khan","marks":600.0},{"id":5,"rollNo":5,"firstName":"Aamir","lastName":"Khan","marks":700.0},{"id":6,"rollNo":6,"firstName":"Shahrukh","lastName":"Khan","marks":800.0},{"id":7,"rollNo":7,"firstName":"Ranbir","lastName":"Kapoor","marks":900.0},{"id":8,"rollNo":8,"firstName":"Ranveer","lastName":"Singh","marks":800.0},{"id":9,"rollNo":9,"firstName":"Akshay","lastName":"Kumar","marks":900.0},{"id":10,"rollNo":10,"firstName":"Ajay","lastName":"Devgan","marks":800.0}]&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>GETTest</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='smartrics.rest.fitnesse.fixture'}</instruction>
+        <slimResult>pass(smartrics.rest.fitnesse.fixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>smartrics.rest.fitnesse.fixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='tableTable_1_0', instruction='make', instanceName='tableTable_1', className='RestFixture', args=[&lt;a href="http://localhost:8088"&gt;http://localhost:8088&lt;/a&gt;]}</instruction>
+        <slimResult>pass(Table: Rest Fixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>tableTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Table: Rest Fixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='tableTable_1_1', instruction='call', instanceName='tableTable_1', methodName='doTable', args=[[[GET, /student-jpa, 200, Content-Type : application/json, jsonbody.length == 10]]]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>tableTable_1_1</instructionId>
+          <type>TableTableExpectation</type>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem></testSystem>
+    <command></command>
+    <exitCode>0</exitCode>
+    <stdOut>21:36:04,813 DEBUG [DefaultHttpParams] - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+
+21:36:04,814 DEBUG [DefaultHttpParams] - Set parameter http.protocol.version = HTTP/1.1
+
+21:36:04,814 DEBUG [DefaultHttpParams] - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+
+21:36:04,814 DEBUG [DefaultHttpParams] - Set parameter http.protocol.cookie-policy = default
+
+21:36:04,814 DEBUG [DefaultHttpParams] - Set parameter http.protocol.element-charset = US-ASCII
+
+21:36:04,814 DEBUG [DefaultHttpParams] - Set parameter http.protocol.content-charset = ISO-8859-1
+
+21:36:04,815 DEBUG [DefaultHttpParams] - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@f5958c9
+
+21:36:04,815 DEBUG [DefaultHttpParams] - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+
+21:36:04,815 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+21:36:04,815 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+21:36:04,816 DEBUG [HttpClient] - Java version: 11.0.12
+
+21:36:04,816 DEBUG [HttpClient] - Java vendor: Homebrew
+
+21:36:04,816 DEBUG [HttpClient] - Java class path: /Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmlparser-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-api-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/velocity-engine-core-2.3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/junit-3.8.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-httpclient-3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-text-1.9.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/rhino-1.7R3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestFixture-4.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-logging-1.0.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/log4j-1.2.17.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/json-20210307.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-codec-1.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/jettison-1.3.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestClient-2.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xstream-1.4.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/diffutils-1.3.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/stax-api-1.0.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xmlpull-1.1.3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xpp3_min-1.1.4c.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-lang3-3.12.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmllexer-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar
+
+21:36:04,816 DEBUG [HttpClient] - Operating system name: Mac OS X
+
+21:36:04,816 DEBUG [HttpClient] - Operating system architecture: x86_64
+
+21:36:04,816 DEBUG [HttpClient] - Operating system version: 11.6
+
+21:36:04,839 DEBUG [HttpClient] - SUN 11.0: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; PKCS12, JKS &amp; DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+
+21:36:04,839 DEBUG [HttpClient] - SunRsaSign 11.0: Sun RSA signature provider
+
+21:36:04,839 DEBUG [HttpClient] - SunEC 11.0: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+
+21:36:04,839 DEBUG [HttpClient] - SunJSSE 11.0: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2/TLSv1.3/DTLSv1.0/DTLSv1.2)
+
+21:36:04,839 DEBUG [HttpClient] - SunJCE 11.0: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC, ChaCha20)
+
+21:36:04,839 DEBUG [HttpClient] - SunJGSS 11.0: Sun (Kerberos v5, SPNEGO)
+
+21:36:04,839 DEBUG [HttpClient] - SunSASL 11.0: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, CRAM-MD5, NTLM)
+
+21:36:04,839 DEBUG [HttpClient] - XMLDSig 11.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+
+21:36:04,839 DEBUG [HttpClient] - SunPCSC 11.0: Sun PC/SC provider
+
+21:36:04,839 DEBUG [HttpClient] - JdkLDAP 11.0: JdkLDAP Provider (implements LDAP CertStore)
+
+21:36:04,839 DEBUG [HttpClient] - JdkSASL 11.0: JDK SASL provider(implements client and server mechanisms for GSSAPI)
+
+21:36:04,840 DEBUG [HttpClient] - Apple 11.0: Apple Provider
+
+21:36:04,840 DEBUG [HttpClient] - SunPKCS11 11.0: Unconfigured and unusable PKCS11 provider
+
+21:36:04,856 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+21:36:04,856 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+21:36:04,862 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+21:36:04,862 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+21:36:04,862 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+21:36:04,872 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+21:36:04,872 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+21:36:04,872 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+21:36:04,872 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+21:36:04,873 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+21:36:04,873 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+21:36:04,873 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+21:36:04,873 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+21:36:04,873 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+21:36:04,873 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+21:36:04,873 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+21:36:04,873 DEBUG [HttpMethodBase] - Adding Host request header
+
+21:36:04,873 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+21:36:04,878 DEBUG [HttpState] - enter HttpState.getCookies()
+
+21:36:04,878 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+21:36:04,878 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+21:36:04,879 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+21:36:04,879 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+21:36:04,879 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+21:36:04,880 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+21:36:04,880 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,880 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,882 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+21:36:04,882 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+21:36:04,882 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+21:36:04,882 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,882 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,882 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,883 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,883 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+21:36:04,883 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+21:36:04,883 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+21:36:04,883 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+21:36:04,883 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+21:36:04,883 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+21:36:04,884 DEBUG [HeaderElement] - enter HeaderElement.parseElements(String)
+
+21:36:04,884 DEBUG [HeaderElement] - enter HeaderElement.parseElements(char[])
+
+21:36:04,884 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable(int)
+
+21:36:04,885 WARN  [HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+21:36:04,885 DEBUG [HttpMethodBase] - Buffering response body
+
+21:36:04,885 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+21:36:04,885 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:36:04,885 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:36:04,886 DEBUG [HttpMethodBase] - Resorting to protocol version default close connection policy
+
+21:36:04,886 DEBUG [HttpMethodBase] - Should NOT close connection, using HTTP/1.1
+
+21:36:04,886 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+21:36:04,886 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+21:36:04,886 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+</stdOut>
+    <stdErr>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+Nov 30, 2021 9:36:04 PM smartrics.rest.fitnesse.fixture.RestFixture &lt;clinit&gt;
+INFO: ############ Detected FitNesse version: v20211030 ###########
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>389</totalRunTimeInMillis>
+</testResults>
+

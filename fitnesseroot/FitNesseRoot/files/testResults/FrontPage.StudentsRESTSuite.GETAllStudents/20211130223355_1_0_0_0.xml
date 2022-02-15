@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20211030</FitNesseVersion>
+  <rootPath>FrontPage.StudentsRESTSuite.GETAllStudents</rootPath>
+  <result>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2021-11-30T22:33:55-07:00</date>
+    <runTimeInMillis>20</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/dependencies/*.jar&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;smartrics.rest.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table: Rest Fixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://localhost:8088"&gt;http://localhost:8088&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;&lt;a href='http://localhost:8088/student-jpa'&gt;/student-jpa&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;200&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/json&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;Access-Control-Allow-Origin&amp;nbsp;:&amp;nbsp;*&lt;br/&gt;Access-Control-Allow-Methods&amp;nbsp;:&amp;nbsp;POST,&amp;nbsp;GET,&amp;nbsp;PUT,&amp;nbsp;OPTIONS,&amp;nbsp;DELETE,&amp;nbsp;PATCH&lt;br/&gt;Access-Control-Max-Age&amp;nbsp;:&amp;nbsp;3600&lt;br/&gt;Access-Control-Allow-Headers&amp;nbsp;:&amp;nbsp;Origin,&amp;nbsp;Content-Type,&amp;nbsp;Accept&lt;br/&gt;Access-Control-Expose-Headers&amp;nbsp;:&amp;nbsp;Location&lt;br/&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/json&lt;br/&gt;Transfer-Encoding&amp;nbsp;:&amp;nbsp;chunked&lt;br/&gt;Date&amp;nbsp;:&amp;nbsp;Wed,&amp;nbsp;01&amp;nbsp;Dec&amp;nbsp;2021&amp;nbsp;05:33:55&amp;nbsp;GMT&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;jsonbody.length&amp;nbsp;==&amp;nbsp;10&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;[{"id":1,"rollNo":1,"firstName":"Binay","lastName":"Gurung","marks":300.0},{"id":2,"rollNo":2,"firstName":"Rahul","lastName":"Ghadage","marks":950.0},{"id":3,"rollNo":3,"firstName":"Sunny","lastName":"Deol","marks":500.0},{"id":4,"rollNo":4,"firstName":"Salman","lastName":"Khan","marks":600.0},{"id":5,"rollNo":5,"firstName":"Aamir","lastName":"Khan","marks":700.0},{"id":6,"rollNo":6,"firstName":"Shahrukh","lastName":"Khan","marks":800.0},{"id":7,"rollNo":7,"firstName":"Ranbir","lastName":"Kapoor","marks":900.0},{"id":8,"rollNo":8,"firstName":"Ranveer","lastName":"Singh","marks":800.0},{"id":9,"rollNo":9,"firstName":"Akshay","lastName":"Kumar","marks":900.0},{"id":10,"rollNo":10,"firstName":"Ajay","lastName":"Devgan","marks":800.0}]&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>GETAllStudents</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='smartrics.rest.fitnesse.fixture'}</instruction>
+        <slimResult>pass(smartrics.rest.fitnesse.fixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>smartrics.rest.fitnesse.fixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='tableTable_1_0', instruction='make', instanceName='tableTable_1', className='RestFixture', args=[&lt;a href="http://localhost:8088"&gt;http://localhost:8088&lt;/a&gt;]}</instruction>
+        <slimResult>pass(Table: Rest Fixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>tableTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Table: Rest Fixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='tableTable_1_1', instruction='call', instanceName='tableTable_1', methodName='doTable', args=[[[GET, /student-jpa, 200, Content-Type : application/json, jsonbody.length == 10]]]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>tableTable_1_1</instructionId>
+          <type>TableTableExpectation</type>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem></testSystem>
+    <command></command>
+    <exitCode>0</exitCode>
+    <stdOut>22:33:55,890 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+22:33:55,890 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+22:33:55,891 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+22:33:55,891 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+22:33:55,891 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+22:33:55,891 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+22:33:55,891 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+22:33:55,892 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+22:33:55,892 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+22:33:55,892 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+22:33:55,892 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+22:33:55,892 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+22:33:55,892 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+22:33:55,892 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+22:33:55,892 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+22:33:55,892 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+22:33:55,892 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+22:33:55,892 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+22:33:55,893 DEBUG [HttpMethodBase] - Adding Host request header
+
+22:33:55,893 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+22:33:55,893 DEBUG [HttpState] - enter HttpState.getCookies()
+
+22:33:55,893 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+22:33:55,893 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+22:33:55,893 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+22:33:55,893 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+22:33:55,893 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+22:33:55,894 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+22:33:55,894 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,894 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,896 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+22:33:55,896 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+22:33:55,896 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+22:33:55,896 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,896 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,896 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,896 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,896 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,896 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,896 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,896 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,896 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,897 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+22:33:55,897 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+22:33:55,897 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+22:33:55,897 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+22:33:55,897 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+22:33:55,897 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+22:33:55,897 DEBUG [HeaderElement] - enter HeaderElement.parseElements(String)
+
+22:33:55,897 DEBUG [HeaderElement] - enter HeaderElement.parseElements(char[])
+
+22:33:55,897 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable(int)
+
+22:33:55,897 WARN  [HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+22:33:55,897 DEBUG [HttpMethodBase] - Buffering response body
+
+22:33:55,897 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+22:33:55,897 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+22:33:55,897 DEBUG [HttpMethodBase] - Resorting to protocol version default close connection policy
+
+22:33:55,898 DEBUG [HttpMethodBase] - Should NOT close connection, using HTTP/1.1
+
+22:33:55,898 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+22:33:55,898 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+22:33:55,898 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>20</totalRunTimeInMillis>
+</testResults>
+

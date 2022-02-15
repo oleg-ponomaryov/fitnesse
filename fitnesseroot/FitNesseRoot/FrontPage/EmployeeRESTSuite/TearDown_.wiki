@@ -1,0 +1,12 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path target/dependencies/*.jar
+
+
+| Import |
+| smartrics.rest.fitnesse.fixture |
+
+|Table: Rest Fixture | http://localhost:8088 |
+| DELETE | /employees/all | 200 |||

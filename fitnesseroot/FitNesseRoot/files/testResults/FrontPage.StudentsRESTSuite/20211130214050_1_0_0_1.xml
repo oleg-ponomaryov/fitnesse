@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20211030</FitNesseVersion>
+  <rootPath>FrontPage.StudentsRESTSuite</rootPath>
+  <pageHistoryReference>
+    <name>FrontPage.StudentsRESTSuite.CreateOneStudent</name>
+    <date>2021-11-30T21:40:50-07:00</date>
+    <pageHistoryLink>FrontPage.StudentsRESTSuite.CreateOneStudent?pageHistory&amp;resultDate=20211130214050</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <runTimeInMillis>1</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.StudentsRESTSuite.GETAllStudents</name>
+    <date>2021-11-30T21:40:51-07:00</date>
+    <pageHistoryLink>FrontPage.StudentsRESTSuite.GETAllStudents?pageHistory&amp;resultDate=20211130214051</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>375</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp /Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar fit.FitServer MACBOOKPRO-C02G884VMD6R 52508 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmlparser-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-api-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/velocity-engine-core-2.3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/junit-3.8.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-httpclient-3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-text-1.9.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/rhino-1.7R3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestFixture-4.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-logging-1.0.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/log4j-1.2.17.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/json-20210307.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-codec-1.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/jettison-1.3.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestClient-2.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xstream-1.4.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/diffutils-1.3.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/stax-api-1.0.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xmlpull-1.1.3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xpp3_min-1.1.4c.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-lang3-3.12.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmllexer-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>21:40:51,333 DEBUG [DefaultHttpParams] - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+
+21:40:51,334 DEBUG [DefaultHttpParams] - Set parameter http.protocol.version = HTTP/1.1
+
+21:40:51,335 DEBUG [DefaultHttpParams] - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+
+21:40:51,335 DEBUG [DefaultHttpParams] - Set parameter http.protocol.cookie-policy = default
+
+21:40:51,335 DEBUG [DefaultHttpParams] - Set parameter http.protocol.element-charset = US-ASCII
+
+21:40:51,335 DEBUG [DefaultHttpParams] - Set parameter http.protocol.content-charset = ISO-8859-1
+
+21:40:51,335 DEBUG [DefaultHttpParams] - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@f5958c9
+
+21:40:51,336 DEBUG [DefaultHttpParams] - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+
+21:40:51,336 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+21:40:51,336 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+21:40:51,336 DEBUG [HttpClient] - Java version: 11.0.12
+
+21:40:51,337 DEBUG [HttpClient] - Java vendor: Homebrew
+
+21:40:51,337 DEBUG [HttpClient] - Java class path: /Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmlparser-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-api-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/velocity-engine-core-2.3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/junit-3.8.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-httpclient-3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-text-1.9.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/rhino-1.7R3.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestFixture-4.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-logging-1.0.4.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/log4j-1.2.17.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/json-20210307.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-codec-1.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/jettison-1.3.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/smartrics-RestClient-2.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xstream-1.4.2.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/diffutils-1.3.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/stax-api-1.0.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xmlpull-1.1.3.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/xpp3_min-1.1.4c.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/commons-lang3-3.12.0.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/htmllexer-2.1.jar:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/fitnesse-20211030.jar
+
+21:40:51,337 DEBUG [HttpClient] - Operating system name: Mac OS X
+
+21:40:51,337 DEBUG [HttpClient] - Operating system architecture: x86_64
+
+21:40:51,337 DEBUG [HttpClient] - Operating system version: 11.6
+
+21:40:51,359 DEBUG [HttpClient] - SUN 11.0: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; PKCS12, JKS &amp; DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+
+21:40:51,359 DEBUG [HttpClient] - SunRsaSign 11.0: Sun RSA signature provider
+
+21:40:51,359 DEBUG [HttpClient] - SunEC 11.0: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+
+21:40:51,359 DEBUG [HttpClient] - SunJSSE 11.0: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2/TLSv1.3/DTLSv1.0/DTLSv1.2)
+
+21:40:51,359 DEBUG [HttpClient] - SunJCE 11.0: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC, ChaCha20)
+
+21:40:51,359 DEBUG [HttpClient] - SunJGSS 11.0: Sun (Kerberos v5, SPNEGO)
+
+21:40:51,359 DEBUG [HttpClient] - SunSASL 11.0: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, CRAM-MD5, NTLM)
+
+21:40:51,360 DEBUG [HttpClient] - XMLDSig 11.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+
+21:40:51,360 DEBUG [HttpClient] - SunPCSC 11.0: Sun PC/SC provider
+
+21:40:51,360 DEBUG [HttpClient] - JdkLDAP 11.0: JdkLDAP Provider (implements LDAP CertStore)
+
+21:40:51,360 DEBUG [HttpClient] - JdkSASL 11.0: JDK SASL provider(implements client and server mechanisms for GSSAPI)
+
+21:40:51,360 DEBUG [HttpClient] - Apple 11.0: Apple Provider
+
+21:40:51,360 DEBUG [HttpClient] - SunPKCS11 11.0: Unconfigured and unusable PKCS11 provider
+
+21:40:51,376 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+21:40:51,376 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+21:40:51,381 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+21:40:51,381 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+21:40:51,381 DEBUG [HttpConnection] - Open connection to localhost:8088
+
+21:40:51,392 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+21:40:51,392 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+21:40:51,392 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+21:40:51,392 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+21:40:51,393 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+21:40:51,393 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+21:40:51,393 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+21:40:51,393 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+21:40:51,393 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+21:40:51,393 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+21:40:51,393 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+21:40:51,393 DEBUG [HttpMethodBase] - Adding Host request header
+
+21:40:51,393 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+21:40:51,397 DEBUG [HttpState] - enter HttpState.getCookies()
+
+21:40:51,397 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+21:40:51,397 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+21:40:51,398 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+21:40:51,398 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+21:40:51,398 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+21:40:51,399 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+21:40:51,399 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,400 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,402 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+21:40:51,402 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+21:40:51,402 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,402 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,403 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,403 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,403 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,403 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,403 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,403 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,403 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,403 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+21:40:51,403 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+21:40:51,403 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+21:40:51,403 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+21:40:51,403 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+21:40:51,403 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+21:40:51,403 DEBUG [HeaderElement] - enter HeaderElement.parseElements(String)
+
+21:40:51,404 DEBUG [HeaderElement] - enter HeaderElement.parseElements(char[])
+
+21:40:51,404 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable(int)
+
+21:40:51,405 WARN  [HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+21:40:51,405 DEBUG [HttpMethodBase] - Buffering response body
+
+21:40:51,405 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+21:40:51,405 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+21:40:51,405 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+21:40:51,405 DEBUG [HttpMethodBase] - Resorting to protocol version default close connection policy
+
+21:40:51,405 DEBUG [HttpMethodBase] - Should NOT close connection, using HTTP/1.1
+
+21:40:51,405 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+21:40:51,405 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+21:40:51,405 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+</stdOut>
+    <stdErr>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-jdk14-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/oleg.ponomaryov/views/fitnesse/ibotta/target/dependencies/slf4j-log4j12-1.7.20.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+Nov 30, 2021 9:40:51 PM smartrics.rest.fitnesse.fixture.RestFixture &lt;clinit&gt;
+INFO: ############ Detected FitNesse version: v20211030 ###########
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1075</totalRunTimeInMillis>
+</suiteResults>
+

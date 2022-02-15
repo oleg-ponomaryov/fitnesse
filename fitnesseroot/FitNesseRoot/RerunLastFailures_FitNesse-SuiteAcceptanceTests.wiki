@@ -1,0 +1,35 @@
+---
+Help: Lists tests failed during last run, so they can be run again (without running all tests that passed).
+Suite
+---
+
+!note This page is automatically generated when running tests. It will be overwritten by the next Suite or Test execution.
+
+Tests failed (first failure was at 2021-11-30T22:49:46.806600):
+
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestArraysInColumnFixture][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestArraysInColumnFixture]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestMissingField][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestMissingField]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestMissingMethod][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestMissingMethod]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestSaveAndRecallSymbol][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestSaveAndRecallSymbol]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestBlankAndNullCells][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestBlankAndNullCells]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestCannotResolveGracefullyNamedFixture][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestCannotResolveGracefullyNamedFixture]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestFixtureNotFound][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestFixtureNotFound]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestFixtureNotFoundAfterTackingOnFixture][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestFixtureNotFoundAfterTackingOnFixture]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestNoDefaultConstructor][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestNoDefaultConstructor]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestNotFixture][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestNotFixture]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestParsingOfObjects][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestParsingOfObjects]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestTackOnFixtureNotFixture][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestTackOnFixtureNotFixture]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteRowFixtureSpec.TestBasicRowFixture][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteRowFixtureSpec.TestBasicRowFixture]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingAbsoluteSymbolicLink][.FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingAbsoluteSymbolicLink]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingBackwardSymbolicLink][.FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingBackwardSymbolicLink]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingNestedBackSymbolicLink][.FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingNestedBackSymbolicLink]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingRelativeSymbolicLink][.FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingRelativeSymbolicLink]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingSubPageSymbolicLink][.FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingSubPageSymbolicLink]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestRemovingSymbolicLink][.FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestRemovingSymbolicLink]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestRenameSymbolicLink][.FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestRenameSymbolicLink]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestSymbolicLinkBehavior][.FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestSymbolicLinkBehavior]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestBreadCrumbs][.FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestBreadCrumbs]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestHeadersAndFooters][.FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestHeadersAndFooters]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationDefault][.FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationDefault]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationWithSuite][.FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationWithSuite]]
+!see [[FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationWithTest][.FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationWithTest]]
